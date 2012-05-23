@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!-- Text Colors -->
+	<color name="light_shadow">#666666</color>
+	<color name="dark_shadow">#363636</color>
+
+	<!-- Background colors -->
+	<color name="divider">#999999</color>
+	<color name="holo_dark">#1F1F1F</color>
+	<color name="holo_light">#303030</color>
+	<color name="bright_blue">#5397B0</color>
+	<color name="action_dark">#464646</color>
+	<color name="action_light">#666666</color>
+	
+	<!-- Button colors -->
+	<color name="borderless_pressed">#7FC6E1</color>
+	<color name="borderless_focused">#99BBD6E0</color>
+
+	<!-- General colors -->
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="transparent">#00000000</color>
+</resources>

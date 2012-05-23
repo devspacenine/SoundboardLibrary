@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:paddingTop="5dp"
+	android:paddingBottom="10dp" >
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp" >
+		<TextView android:id="@+id/sound_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:layout_marginLeft="10dp"
+			android:layout_centerHorizontal="true"
+			android:gravity="center"
+			style="@style/ContextMenuTitle" />
+		<TextView android:id="@+id/unused_info"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_below="@id/sound_title"
+			style="@style/ContextMenuSubtitle"
+			android:visibility="gone" />
+	</RelativeLayout>
+	<View android:id="@+id/context_divider"
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:layout_margin="5dp"
+		android:background="@color/white"
+		android:visibility="gone" />
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal" >
+		<LinearLayout android:id="@+id/contact_ringtone"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:visibility="gone" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				android:gravity="center"
+				android:text="@string/context_contact"
+				style="@style/ContextMenuLabel" />
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:src="@drawable/phone_icon" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/default_ringtone"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:visibility="gone" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				android:gravity="center"
+				android:text="@string/context_default"
+				style="@style/ContextMenuLabel" />
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:src="@drawable/phone_icon" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/default_notification"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:visibility="gone" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				android:gravity="center"
+				android:text="@string/context_default"
+				style="@style/ContextMenuLabel" />
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:src="@drawable/notification_icon" />
+		</LinearLayout>
+		<LinearLayout android:id="@+id/default_alarm"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"
+			android:visibility="gone" >
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="2dp"
+				android:gravity="center"
+				android:text="@string/context_default"
+				style="@style/ContextMenuLabel" />
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal"
+				android:src="@drawable/alarm_icon" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

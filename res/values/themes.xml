@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Action Bar Themes -->
+    <style name="Theme.Soundboard" parent="@style/Theme.Sherlock">
+        <item name="abDisplayOptions">useLogo|showHome|showTitle</item>
+        <item name="abLogo">@drawable/logo</item>
+        <item name="abIcon">@drawable/logo</item>
+        <item name="actionBarSize">64dp</item>
+        <item name="abBackground">@drawable/action_bg</item>
+        <item name="abTitleTextStyle">@style/TitleText</item>
+        <item name="abSubtitleTextStyle">@style/SubtitleText</item>
+        <item name="abSubtitle">@string/subtitle</item>
+    </style>
+    <style name="Theme.Soundboard.Hidden">
+        <item name="abDisplayOptions">homeAsUp|useLogo|showHome|showTitle</item>
+        <item name="abSubtitle">@string/hidden_sounds_subtitle</item>
+    </style>
+    <style name="Theme.Soundboard.Explore">
+        <item name="abDisplayOptions">homeAsUp|useLogo|showHome</item>
+        <item name="abNavigationMode">listMode</item>
+    </style>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/dark_bg" >
+	<com.mobclix.android.sdk.MobclixMMABannerXLAdView
+   		android:id="@+id/adview_banner"
+   		android:layout_width="320dp"
+   		android:layout_height="50dp"
+   		android:layout_marginTop="8dp"
+   		android:layout_alignParentBottom="true"
+   		android:layout_centerHorizontal="true"
+   		android:layout_gravity="center" />
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_above="@id/adview_banner"
+    	android:paddingBottom="8dp" >
+   		<FrameLayout android:id="@+id/sound_group_frame"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

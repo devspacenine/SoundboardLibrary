@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="Soundboard" parent="@android:style/Widget"></style>
+    <style name="Soundboard.ActionBar">
+        <item name="android:displayOptions">useLogo|showHome|showTitle</item>
+        <item name="android:background">@drawable/action_bg</item>
+        <item name="android:titleTextStyle">@style/TitleText</item>
+        <item name="android:subtitleTextStyle">@style/SubtitleText</item>
+        <item name="android:subtitle">@string/subtitle</item>
+        <item name="android:logo">@drawable/logo</item>
+        <item name="android:icon">@drawable/logo</item>
+    </style>
+    <style name="Soundboard.ActionBar.HiddenSounds">
+        <item name="android:displayOptions">homeAsUp|useLogo|showHome|showTitle</item>
+        <item name="android:subtitle">@string/hidden_sounds_subtitle</item>
+    </style>
+    <style name="Soundboard.ActionBar.Explore">
+        <item name="android:displayOptions">homeAsUp|useLogo|showHome</item>
+        <item name="android:navigationMode">listMode</item>
+    </style>
+</resources>

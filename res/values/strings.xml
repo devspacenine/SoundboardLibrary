@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- App Dependent Strings -->
+	<string name="app_name">(Title) Soundboard</string>
+	<string name="short_label">(Short Title)</string>
+    <string name="title">(Title)</string>
+    <string name="subtitle">Sound Clips &amp; Ringtones</string>
+    <string name="directory_name">Directory Name</string>
+    <string name="mobclix_app_id">xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</string>
+    <string name="admob_pub_id">xxxxxxxxxxxxxxx</string>
+
+    <!-- Header Strings -->
+    <string name="explore_title">Explore</string>
+    <string name="explore_subtitle">My Soundboards</string>
+    <string name="hidden_sounds_title">Hidden Sounds</string>
+    <string name="hidden_sounds_subtitle">Long Click for Options</string>
+    <string name="group_name">Miscellaneous</string>
+
+    <!-- Menu strings -->
+    <string name="menu_random">Random</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_explore">Explore</string>
+    <string name="menu_clear">Delete Unused</string>
+    <string name="menu_storage_details">Storage Details</string>
+    <string name="menu_hidden_sounds">Hidden Sounds</string>
+    <string name="menu_show_all_hidden">All</string>
+    <string name="menu_download">More</string>
+    <string name="context_default">Default</string>
+    <string name="context_contact">Contact</string>
+
+    <!-- Buttons -->
+    <string name="more_soundboards">Find More Soundboards</string>
+    <string name="update_available">Update Available</string>
+
+    <!-- Intent Attributes -->
+    <string name="base_category">com.therealmccoy.soundboardlibrary.category.SOUNDBOARD</string>
+    <string name="group_key">com.therealmccoy.soundboardlibrary.category.MISCELLANEOUS</string>
+    <string name="start_action">com.therealmccoy.soundboardlibrary.action.START</string>
+</resources>
